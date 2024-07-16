@@ -4,6 +4,8 @@ namespace MVC_2022.Models
     {
         public string? RequestId { get; set; }
 
+        public string? Teste { get; set; }
+
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\mvc_2022\\mvc_2022\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|solutionrelative:mvc_2022\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\mvc_2022\\mvc_2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|solutionrelative:mvc_2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\mvc_2022\\mvc_2022\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D88BC09-BC80-4248-9F5A-7EF22811428D}|MVC_2022\\MVC_2022.csproj|solutionrelative:mvc_2022\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,22 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Program.cs",
-              "RelativeDocumentMoniker": "MVC_2022\\Program.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Program.cs",
-              "RelativeToolTip": "MVC_2022\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:53:10.483Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -41,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Startup.cs",
-              "RelativeDocumentMoniker": "MVC_2022\\Startup.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Startup.cs",
-              "RelativeToolTip": "MVC_2022\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T01:05:42.503Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_2022\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\MVC_2022\\MVC_2022\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_2022\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T18:03:13.784Z",
               "EditorCaption": ""
             }
           ]
