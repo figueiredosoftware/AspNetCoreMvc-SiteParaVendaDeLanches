@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MVC_2022")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LanchesMac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ece12b41862a657696bd5223f54acd6c2da20d72")]
-[assembly: System.Reflection.AssemblyProductAttribute("MVC_2022")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MVC_2022")]
+[assembly: System.Reflection.AssemblyProductAttribute("LanchesMac")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LanchesMac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
