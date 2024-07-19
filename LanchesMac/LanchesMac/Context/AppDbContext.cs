@@ -6,7 +6,8 @@ namespace LanchesMac.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> options):base(options) 
         {
-            
+            //teste
+            int a = 0;
         }
     }
 }

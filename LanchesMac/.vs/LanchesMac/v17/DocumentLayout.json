@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "LanchesMac\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
               "RelativeToolTip": "LanchesMac\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T19:22:51.191Z",
               "EditorCaption": ""
@@ -48,15 +48,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LanchesMac",
+              "Title": "LanchesMac.csproj",
               "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
               "RelativeDocumentMoniker": "LanchesMac\\LanchesMac.csproj",
               "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
               "RelativeToolTip": "LanchesMac\\LanchesMac.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-19T17:59:24.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T17:59:24.764Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "LanchesMac\\Models\\Lanche.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:30:28.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T19:30:28.179Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "LanchesMac\\Models\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:26:18.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T19:26:18.464Z"
             }
           ]
         }
