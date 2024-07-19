@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\views\\shared\\_corousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\views\\shared\\_corousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\lanchesmac.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\lanchesmac.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\models\\lanche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "LanchesMac\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "LanchesMac\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T02:26:44.287Z",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "LanchesMac\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:22:51.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Corousel.cshtml",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Shared\\_Corousel.cshtml",
-              "RelativeDocumentMoniker": "LanchesMac\\Views\\Shared\\_Corousel.cshtml",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Shared\\_Corousel.cshtml",
-              "RelativeToolTip": "LanchesMac\\Views\\Shared\\_Corousel.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T02:21:24.863Z",
+              "Title": "LanchesMac",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+              "RelativeDocumentMoniker": "LanchesMac\\LanchesMac.csproj",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+              "RelativeToolTip": "LanchesMac\\LanchesMac.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-19T17:59:24.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lanche.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Lanche.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Models\\Lanche.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Lanche.cs",
+              "RelativeToolTip": "LanchesMac\\Models\\Lanche.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T19:30:28.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Categoria.cs",
+              "RelativeToolTip": "LanchesMac\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T19:26:18.464Z",
               "EditorCaption": ""
             }
           ]
