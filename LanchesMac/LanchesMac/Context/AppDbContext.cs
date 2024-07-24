@@ -13,5 +13,6 @@ namespace LanchesMac.Context
         //aqui informo que minha classe parq eu seja mapeada numa tabelas quando eu criar o banco de dados e as tabelas
         public DbSet<Categoria> Categorias { get; set; } 
         public DbSet<Lanche> Lanches { get; set; } 
+        public DbSet<Molho> Molhos { get; set; } 
     }
 }

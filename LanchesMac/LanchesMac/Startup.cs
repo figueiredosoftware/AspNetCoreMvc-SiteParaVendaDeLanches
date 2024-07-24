@@ -1,4 +1,6 @@
 ﻿using LanchesMac.Context;
+using LanchesMac.Repositories;
+using LanchesMac.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac
@@ -22,6 +24,10 @@ namespace LanchesMac
             //por isso eu registrei isso como um serviço
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>(); //registrando serviço do repositório LancheRepository
+            services.AddTransient<ILancheRepository, LancheRepository>(); //registrando serviço do repositório LancheRepository
+            services.AddTransient<IMolhoRepository, MolhoRepository>(); //registrando serviço do repositório MolhoRepository
 
             services.AddControllersWithViews(); //Serviço dos controladores com views
         }
