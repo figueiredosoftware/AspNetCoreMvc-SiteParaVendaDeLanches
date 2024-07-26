@@ -8,6 +8,7 @@ namespace LanchesMac.Controllers
     {
         public IActionResult Index()
         {
+            TempData["Nome"] = "Lara Sheller";
             return View();
         }
 
