@@ -3,6 +3,7 @@ using LanchesMac.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanchesMac.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240804195420_CategoriaMolhos")]
+    partial class CategoriaMolhos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,29 +67,6 @@ namespace LanchesMac.Migrations
                     b.HasKey("CategoriaMolhoId");
 
                     b.ToTable("CategoriaMolhos");
-                });
-
-            modelBuilder.Entity("LanchesMac.Models.CategoriaMulho", b =>
-                {
-                    b.Property<int>("CategoriaMulhoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoriaMulhoId"), 1L, 1);
-
-                    b.Property<string>("CategoriaMulhoDescricao")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<string>("CategoriaMulhoNome")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("CategoriaMulhoId");
-
-                    b.ToTable("CategoriaMulhos");
                 });
 
             modelBuilder.Entity("LanchesMac.Models.Lanche", b =>
@@ -163,34 +142,6 @@ namespace LanchesMac.Migrations
                     b.ToTable("Molhos");
                 });
 
-            modelBuilder.Entity("LanchesMac.Models.Mulho", b =>
-                {
-                    b.Property<int>("MulhoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MulhoId"), 1L, 1);
-
-                    b.Property<int>("CategoriaMulhoId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("MulhoDescricao")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<string>("MulhoNome")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("MulhoId");
-
-                    b.HasIndex("CategoriaMulhoId");
-
-                    b.ToTable("Mulhos");
-                });
-
             modelBuilder.Entity("LanchesMac.Models.Lanche", b =>
                 {
                     b.HasOne("LanchesMac.Models.Categoria", "Categoria")
@@ -202,25 +153,9 @@ namespace LanchesMac.Migrations
                     b.Navigation("Categoria");
                 });
 
-            modelBuilder.Entity("LanchesMac.Models.Mulho", b =>
-                {
-                    b.HasOne("LanchesMac.Models.CategoriaMulho", "CategoriaMulho")
-                        .WithMany("Mulhos")
-                        .HasForeignKey("CategoriaMulhoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CategoriaMulho");
-                });
-
             modelBuilder.Entity("LanchesMac.Models.Categoria", b =>
                 {
                     b.Navigation("Lanches");
-                });
-
-            modelBuilder.Entity("LanchesMac.Models.CategoriaMulho", b =>
-                {
-                    b.Navigation("Mulhos");
                 });
 #pragma warning restore 612, 618
         }

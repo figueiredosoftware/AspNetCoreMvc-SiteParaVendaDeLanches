@@ -1,0 +1,25 @@
+﻿@model IEnumerable<LanchesMac.Models.Molho>
+
+<div>
+    <h2>@ViewBag.TituloMolhos</h2>
+</div>
+
+<h1>@TempData["Nome"]</h1>
+
+<h2>@ViewBag.Data</h2>
+
+<h2>@ViewData["Data2"]</h2>
+
+<hr />
+<h3>@ViewBag.TituloTotalDeMolhos @ViewBag.TotalDeMolhos</h3>
+
+
+@foreach (var molho in Model)
+{
+    <div>
+        <h3>@molho.MolhoId</h3>
+        <h3>@molho.MolhoNome</h3>
+        <h3>@molho.MolhoDescricao</h3>
+        <br />
+    </div>
+}

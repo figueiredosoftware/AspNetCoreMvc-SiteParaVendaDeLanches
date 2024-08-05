@@ -3,23 +3,25 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LanchesMac.Models
 {
-    [Table("Molhos")]
-    public class Molho
+    [Table("Mulhos")]
+    public class Mulho
     {
         [Key]
-        public int MolhoId { get; set; }
+        public int MulhoId { get; set; }
 
         [StringLength(100, ErrorMessage = "O tamanho máximo é de 100 caracteres")]
         [Required(ErrorMessage = "Informe o nome do molho")]
         [Display(Name = "Nome do molho")]
-        public string MolhoNome { get; set; }
+        public string MulhoNome { get; set; }
 
         [StringLength(200, ErrorMessage = "O tamanho máximo é de 200 caracteres")]
         [Required(ErrorMessage = "Informe a descrição do molho")]
         [Display(Name = "Descrição do molho")]
-        public string MolhoDescricao { get; set; }
+        public string MulhoDescricao { get; set; }
 
+        //Definindo a chave estrangeira e navegação
+        public int CategoriaMulhoId { get; set; }
 
-
+        public virtual CategoriaMulho CategoriaMulho { get; set; }
     }
 }

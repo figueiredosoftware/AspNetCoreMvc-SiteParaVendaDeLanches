@@ -27,6 +27,7 @@ namespace LanchesMac
 
             services.AddTransient<ICategoriaRepository, CategoriaRepository>(); //registrando serviço do repositório LancheRepository
             services.AddTransient<ILancheRepository, LancheRepository>(); //registrando serviço do repositório LancheRepository
+            services.AddTransient<ICategoriaMolhoRepository, CategoriaMolhoRepository>(); //registrando serviço do repositório CategoriaMolhoRepository
             services.AddTransient<IMolhoRepository, MolhoRepository>(); //registrando serviço do repositório MolhoRepository
 
             services.AddControllersWithViews(); //Serviço dos controladores com views

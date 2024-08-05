@@ -14,5 +14,10 @@ namespace LanchesMac.Repositories
         }
 
         public IEnumerable<Molho> Molhos => _context.Molhos;
+
+        public Molho GetMolhoById(int molhoId)
+        {
+            return _context.Molhos.FirstOrDefault(l => l.MolhoId == molhoId);
+        }
     }
 }

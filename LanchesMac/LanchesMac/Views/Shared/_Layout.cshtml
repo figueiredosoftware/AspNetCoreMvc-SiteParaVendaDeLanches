@@ -25,6 +25,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Demo">Demo</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Lanche" asp-action="List">Lista de Lanches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Molho" asp-action="ListaDeMolhos">Lista de Molhos</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +38,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody() <!--Todo conteúdo das Views é exibido no RenderBody-->
+            @RenderBody() <!--Todo conteúdo das Views é exibido no RenderBody onde é renderizado as views-->
         </main>
     </div>
 
