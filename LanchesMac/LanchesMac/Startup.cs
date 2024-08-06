@@ -32,7 +32,21 @@ namespace LanchesMac
             services.AddTransient<ICategoriaMulhoRepository, CategoriaMulhoRepository>(); //registrando serviço do repositório CategoriaMolhoRepository
             services.AddTransient<IMulhoRepository, MulhoRepository>(); //registrando serviço do repositório MolhoRepository
 
+            //Definir serviço para acessar os recursos do httpcontext. Assim através de um serviço eu consigo recurar uma instancia de HttpContextAccessor
+            //e usar os recursos da classe httpcontext e obter informações do request e do response, sobre autenticação, e outras informações da requisição
+            //atual (### gerenciamento de estado ###)
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); // AddSingleton vale por todo tempo de vida da minha aplicação
+
             services.AddControllersWithViews(); //Serviço dos controladores com views
+
+            //Para acessar os recursos do HttpContex em um serviço e registrar a interface IHhttpContextAcessor() para injeção de 
+            //dependência no método ConfiguraServices()
+            //Para pode trabalhar com gerenciamento de estado da sessão, gravar dados nos cookies, compartilhas dados entre views
+            //Aqui eu estou registrando os middwares
+            services.AddMemoryCache(); //Habilitar o Cache (### gerenciamento de estado ###)
+            services.AddSession(); // habilitar o session (### gerenciamento de estado ###)
+
+            //Definir serviço para acessar os recursos do httpcontext
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +69,8 @@ namespace LanchesMac
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseSession(); //No caso do session tem que ativar ele aqui, em cima habilita e aqui  ativa (### gerenciamento de estado ###)
 
             app.UseAuthorization();
 
