@@ -1,0 +1,30 @@
+﻿@* @model IEnumerable<LanchesMac.Models.Mulho> *@
+@model MulhosListaViewModel
+
+<div>
+    <h2>@ViewBag.TituloMolhos</h2>
+</div>
+<h1>@TempData["Nome"]</h1>
+<h2>@ViewBag.Data</h2>
+<h2>@ViewData["Data2"]</h2>
+<hr />
+<h3>@ViewBag.TituloTotalDeMolhos @ViewBag.TotalDeMolhos</h3>
+
+<div>
+    <h2>@Model.CategoriaAtual</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var mulho in Model.Mulhos)
+        {
+            @* o @mulho abaixo vem do foreach *@
+            <partial name="_MulhosResumo" for="@mulho" />
+        }
+    </div>
+</div>
+
+
+
+
+

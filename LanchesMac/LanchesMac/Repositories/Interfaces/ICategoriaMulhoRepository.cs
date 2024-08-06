@@ -2,9 +2,9 @@
 
 namespace LanchesMac.Repositories.Interfaces
 {
-    public interface ICategoriaMolhoRepository
+    public interface ICategoriaMulhoRepository
     {
         //Por padrão todos acessos são públicos na interface
-        public IEnumerable<CategoriaMolho> CategoriaMolhos {  get; }
+        public IEnumerable<CategoriaMulho> CategoriaMulhos {  get; }
     }
 }

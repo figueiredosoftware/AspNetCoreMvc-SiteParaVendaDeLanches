@@ -4,15 +4,15 @@ using LanchesMac.Repositories.Interfaces;
 
 namespace LanchesMac.Repositories
 {
-    public class CategoriaMolhoRepository : ICategoriaMolhoRepository
+    public class CategoriaMulhoRepository : ICategoriaMulhoRepository
     {
         private readonly AppDbContext _context;
 
-        public CategoriaMolhoRepository(AppDbContext context)
+        public CategoriaMulhoRepository(AppDbContext context)
         {
             _context = context;
         }
 
-        public IEnumerable<CategoriaMolho> CategoriaMolhos => _context.CategoriaMolhos;
+        public IEnumerable<CategoriaMulho> CategoriaMulhos => _context.CategoriaMulhos;
     }
 }

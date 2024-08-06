@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\views\\molho\\listademolhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\views\\molho\\listademolhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\models\\categoriamulho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\models\\categoriamulho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\models\\mulho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\models\\mulho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\migrations\\20240805015557_popular_mulhos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\migrations\\20240805015557_popular_mulhos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|c:\\alessandro\\fontes\\cursos\\aspnetcoremvc-siteparavendadelanches\\lanchesmac\\lanchesmac\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC9E9C2-A04F-484F-BF11-1421B1EDFFE8}|LanchesMac\\LanchesMac.csproj|solutionrelative:lanchesmac\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListaDeMolhos.cshtml",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Molho\\ListaDeMolhos.cshtml",
-              "RelativeDocumentMoniker": "LanchesMac\\Views\\Molho\\ListaDeMolhos.cshtml",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Views\\Molho\\ListaDeMolhos.cshtml",
-              "RelativeToolTip": "LanchesMac\\Views\\Molho\\ListaDeMolhos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T02:05:38.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240805015557_Popular_Mulhos.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Migrations\\20240805015557_Popular_Mulhos.cs",
-              "RelativeDocumentMoniker": "LanchesMac\\Migrations\\20240805015557_Popular_Mulhos.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Migrations\\20240805015557_Popular_Mulhos.cs",
-              "RelativeToolTip": "LanchesMac\\Migrations\\20240805015557_Popular_Mulhos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Title": "20240805232458_CarrinhoCompraItem.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs",
+              "RelativeToolTip": "LanchesMac\\Migrations\\20240805232458_CarrinhoCompraItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T01:56:55.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LanchesMac\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "LanchesMac\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:11:43.988Z",
+              "WhenOpened": "2024-08-05T23:24:59.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriaMulho.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\CategoriaMulho.cs",
-              "RelativeDocumentMoniker": "LanchesMac\\Models\\CategoriaMulho.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\CategoriaMulho.cs",
-              "RelativeToolTip": "LanchesMac\\Models\\CategoriaMulho.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "LanchesMac\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:03:32.011Z",
+              "WhenOpened": "2024-08-05T23:19:46.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mulho.cs",
-              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Mulho.cs",
-              "RelativeDocumentMoniker": "LanchesMac\\Models\\Mulho.cs",
-              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\Mulho.cs",
-              "RelativeToolTip": "LanchesMac\\Models\\Mulho.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Title": "CarrinhoCompraItem.cs",
+              "DocumentMoniker": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompraItem.cs",
+              "RelativeDocumentMoniker": "LanchesMac\\Models\\CarrinhoCompraItem.cs",
+              "ToolTip": "C:\\Alessandro\\Fontes\\Cursos\\AspNetCoreMvc-SiteParaVendaDeLanches\\LanchesMac\\LanchesMac\\Models\\CarrinhoCompraItem.cs",
+              "RelativeToolTip": "LanchesMac\\Models\\CarrinhoCompraItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:06:49.697Z",
+              "WhenOpened": "2024-08-05T23:11:29.466Z",
               "EditorCaption": ""
             }
           ]
