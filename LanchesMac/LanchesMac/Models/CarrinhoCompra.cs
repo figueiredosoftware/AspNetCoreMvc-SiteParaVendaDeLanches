@@ -1,4 +1,5 @@
 ﻿using LanchesMac.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac.Models
 {
@@ -17,13 +18,13 @@ namespace LanchesMac.Models
         public static CarrinhoCompra GetCarrinho(IServiceProvider services) 
         {
             //define uma sessão. Se a instância de IHttpContextAccessor não for null ele vai evocar a session com HttpContext.Session 
-            //e retornar alocndo na variável session, para isso usamos o operador ? (?=elvis)
+            //e retornar alocando na variável session, para isso usamos o operador ? (?=elvis)
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
             //obtem um serviço do tipo do nosso contexto
             var context = services.GetService<AppDbContext>();
 
-            //obtem ou gera o Id do carrinho usando o operados de coalescencia nula  ??, ou seja, vou tentar pegar um carrinho da sessin com
+            //obtem ou gera o Id do carrinho usando o operados de coalescencia nula  ??, ou seja, vou tentar pegar um carrinho da session com
             //session.GetString("CarrinhoId") e se for nulo eu atribuo um novo Guid com Guid.NewGuid().ToString();
             string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
@@ -39,7 +40,7 @@ namespace LanchesMac.Models
 
         public void AdicionarAoCarrinho(Lanche lanche)
         {
-            //tentar obter o lanche que entro via parâmetro na tabela CarrinhoCompraItens, se existe popula carrinhoCompraItem 
+            //tentar obter o lanche que entrou via parâmetro na tabela CarrinhoCompraItens, se existe popula carrinhoCompraItem 
             //senão move null para carrinhoCompraItem
             var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
                 s => s.Lanche.LancheId == lanche.LancheId &&
@@ -64,5 +65,70 @@ namespace LanchesMac.Models
                 _context.SaveChanges();
             }
         }
+
+        public int RemoverDoCarrinho(Lanche lanche)
+        {
+            //tentar obter o lanche que entrou via parâmetro na tabela CarrinhoCompraItens, se existe popula carrinhoCompraItem 
+            //senão move null para carrinhoCompraItem
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
+                s => s.Lanche.LancheId == lanche.LancheId &&
+                s.CarrinhoCompraId == CarrinhoCompraId);
+
+            var quandidadeLocal = 0;
+
+            //fazer a verificação com base no valor de carrinhoCompraItem
+            if(carrinhoCompraItem != null)
+            {
+                if (carrinhoCompraItem.Quantidade > 1)
+                {
+                    carrinhoCompraItem.Quantidade--;
+                    quandidadeLocal = carrinhoCompraItem.Quantidade;
+                }
+                else
+                {
+                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                }
+            }
+
+            //persistir no banco de dados
+            _context.SaveChanges();
+
+            return quandidadeLocal;
+        }
+
+        //retorna uma lista dos itens do carrinho de compra
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+        {
+            return CarrinhoCompraItens ?? (CarrinhoCompraItens = _context.CarrinhoCompraItens
+                   .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                   .Include(s => s.Lanche)
+                   .ToList());
+        }
+
+        //Limpar Carrinho de Compra
+        public void LimparCarrinho()
+        {
+            var carrinhoItens = _context.CarrinhoCompraItens.Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
+
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+            _context.SaveChanges();
+        }
+
+        //Soma o valor total do carrinho
+        public decimal GetCarrinhoCompraTotal()
+        {
+            var total = _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                        .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
+
+            return total;
+        }
+
+
+
+
+
+
+
+
     }
 }

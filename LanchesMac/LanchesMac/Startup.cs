@@ -1,4 +1,5 @@
 ﻿using LanchesMac.Context;
+using LanchesMac.Models;
 using LanchesMac.Repositories;
 using LanchesMac.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -31,6 +32,17 @@ namespace LanchesMac
             services.AddTransient<IMolhoRepository, MolhoRepository>(); //registrando serviço do repositório MolhoRepository
             services.AddTransient<ICategoriaMulhoRepository, CategoriaMulhoRepository>(); //registrando serviço do repositório CategoriaMolhoRepository
             services.AddTransient<IMulhoRepository, MulhoRepository>(); //registrando serviço do repositório MolhoRepository
+            //para que o container DI do asp.net core disponibilize uma instancia da classe CarrinhoCompra eu vou ter que resgistar o 
+            //serviço da classe CarrinhoCompra neste método ConfigureServices. Vou usar uma instrução lambda onde vou definir a classe
+            //carrinho de compra e eu já vou obter um carrinho chamando o método CarrinhoCompra.GetCarrinho.
+            //Por isso o método GetCarrinho na classe CarrinhoCompra foi definido como estático pra eu poder invocar ele sem ter uma
+            //instancia da classe e assim já obter a partir da sessão um carrinho de compra com um contexto e com uma lista de itens.
+            //Então estou registrando o registro da minha classe e criando um carrinho de compras que vai ter um ID do tipo GUID que vai 
+            //ter um contexto e que vai ter uma lista de itens, se for a primeira vez que for chamado essa lista vai estar vazia mas
+            //vai ter a lista de itens como null. Estou registrando o serviço como ADDSCOPED, isso vai criar uma instancia do serviço do carrinho
+            // a cada request. Isso  significa que se dois clientes solicitarem o objeto carrinho ao mesmo tempo, eles irão obter instancias
+            //diferentes, porque são requests diferentes, por isso usar ADDSCOPED, porque ele trabalha a nível de requisição
+            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             //Definir serviço para acessar os recursos do httpcontext. Assim através de um serviço eu consigo recurar uma instancia de HttpContextAccessor
             //e usar os recursos da classe httpcontext e obter informações do request e do response, sobre autenticação, e outras informações da requisição
